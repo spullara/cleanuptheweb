@@ -25,6 +25,7 @@ $javarants(document).ready(function($) {
   $("*").each(function() {
     this.addEventListener('DOMSubtreeModified', function(e) {
       e.stopPropagation();
+      console.log("cleaning");
       $(e.target).find("*").contents().each(function() {
         replacetext(this);
       });

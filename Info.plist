@@ -4,6 +4,8 @@
 <dict>
 	<key>Author</key>
 	<string>Sam Pullara</string>
+	<key>Builder Version</key>
+	<string>7534.53.10</string>
 	<key>CFBundleDisplayName</key>
 	<string>Clean up the web</string>
 	<key>CFBundleIdentifier</key>
